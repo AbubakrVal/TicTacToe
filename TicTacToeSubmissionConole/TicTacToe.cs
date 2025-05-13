@@ -55,7 +55,7 @@ namespace TicTacToeSubmissionConole
                 int column = GetValidatedInput("Enter column (0-2): ");
 
                 
-                if (_gameBoard.IsCellEmpty(row, column))
+                if (_gameBoard.IsCellEmpty(row, column))  
                 {
                     
                     _gameBoard.PlaceMove(row, column, _currentPlayer);
